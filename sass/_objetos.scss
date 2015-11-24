@@ -1,0 +1,48 @@
+//Registra los Objetos del CSS
+
+
+//Codigo que se repite dentro de otros Objetos
+@import "objetos/helpers";
+
+//Contenedores: 
+	//Paddings, Heights 
+				//	y Backgrounds propios de las mismas
+
+	//Home
+	@import "objetos/menu-main"; //.m
+	@import "objetos/menu-top";//.
+	@import "objetos/menu-mini";//.
+
+	@import "objetos/contacto"; //#
+
+	//About #about
+	@import 'objetos/about';//#
+
+	//Single .single	
+	@import "objetos/single y page";//.single .page
+	@import "objetos/single";
+	@import "objetos/page";				
+
+
+	//MISC _overlay, __flecha, __checkboxes, __checkbox___contacto
+	@import "objetos/contenedores";
+
+	@import "objetos/header";//Header
+	@import "objetos/footer";//Footer	
+
+
+
+//ESTILOS DE OBJETOS GENERALES
+
+//@import "objetos/checkboxes";//.
+//@import "objetos/flechas";//.
+//@import "objetos/iconos";//.
+//@import "objetos/imagenes";//.
+//@import "objetos/inputs";//.
+@import "objetos/links"; //.
+@import "objetos/logos"; //.
+//@import "objetos/overlays";//.overlay
+@import "objetos/parrafos"; //.
+@import "objetos/titulos"; //.
+@import 'objetos/_icono__css-menu';//.
+

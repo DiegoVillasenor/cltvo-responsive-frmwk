@@ -73,7 +73,7 @@ button:focus {
 
 form{
 	input[type="text"], textarea, input[type="password"]{
-		@include fuente_gnl();
+		//@include fuente_gnl();
 		margin-bottom: tamano(1);
 	}
 	input{height: tamano(3.5);}

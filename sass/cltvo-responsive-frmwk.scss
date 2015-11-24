@@ -1,6 +1,6 @@
 /**
-* Cltvo responsive Framework
-* -------------------------
+* Ultraligero Framework
+* ---------------------
 *
 * Desarrollado por El Cultivo
 * http://elcultivo.mx
@@ -18,8 +18,8 @@
 @import "_mixins";
 @import "_funciones";
 @import "_base";
-@import "_reticula"; 
-
+@import "_reticulaNuova"; 
+@import "_objetos";
 
 /**
 * FUENTES
@@ -28,9 +28,9 @@
 
 // Declara tus fuentes usando el MIXIN
 
-@include declara-font-face(Open, '../fonts/OpenSans-Regular-webfont');
-@include declara-font-face(Open, '../fonts/OpenSans-Bold-webfont', bold);
-@include declara-font-face(Open, '../fonts/OpenSans-Italic-webfont', normal, italic);
+@include declara-font-face(Neusa, '../fonts/bvaftfneusa-regular-webfont', normal);
+@include declara-font-face(Neusa, '../fonts/bvaftfneusa-demibold-webfont', bold);
+@include declara-font-face(Helve, '../fonts/HelveticaNeue-Light', 200);
 
 /**
 * TIPOGRAFÍA
