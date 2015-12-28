@@ -1,0 +1,24 @@
+.boton{
+	color: $color-claro;
+	padding: 6px;
+	text-transform: uppercase;
+	background-color: $color-oscuro;
+
+	&--grande {font-size: 15px;}
+
+	&--chico {font-size: 12px;}
+
+	&--claro 
+	{
+		background-color: $color-claro;
+		color: $color-oscuro;
+		font-size: 20px;
+	}
+
+	&--flecha:before
+	{
+		content:url('../images/icon-flecha-boton.svg');
+	}
+
+	&--mbgrande {margin-bottom: 96px;}
+}

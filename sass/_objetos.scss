@@ -2,47 +2,48 @@
 
 
 //Codigo que se repite dentro de otros Objetos
-@import "objetos/helpers";
+@import "extras/helpers";
 
 //Contenedores: 
 	//Paddings, Heights 
 				//	y Backgrounds propios de las mismas
 
 	//Home
-	@import "objetos/menu-main"; //.m
-	@import "objetos/menu-top";//.
-	@import "objetos/menu-mini";//.
+	@import "contenedores/menu-main"; //.m
+	@import "contenedores/menu-top";//.
+	//@import "contenedores/menu-mini";//.
 
-	@import "objetos/contacto"; //#
+	@import "contenedores/contacto"; //#
 
-	//About #about
-	@import 'objetos/about';//#
+	//About #que-hacemos
+	@import 'contenedores/que-hacemos';//#
 
 	//Single .single	
-	@import "objetos/single y page";//.single .page
-	@import "objetos/single";
-	@import "objetos/page";				
+	@import "contenedores/single y page";//.single .page
+	@import "contenedores/single";
+	@import "contenedores/page";				
 
 
 	//MISC _overlay, __flecha, __checkboxes, __checkbox___contacto
-	@import "objetos/contenedores";
-
-	@import "objetos/header";//Header
-	@import "objetos/footer";//Footer	
+	@import "contenedores/contenedores";
+	@import "contenedores/main-body";
+	//@import "contenedores/header";//Header
+	@import "contenedores/footer";//Footer	
 
 
 
 //ESTILOS DE OBJETOS GENERALES
-
+@import "objetos/botones";//.
 //@import "objetos/checkboxes";//.
-//@import "objetos/flechas";//.
-//@import "objetos/iconos";//.
-//@import "objetos/imagenes";//.
-//@import "objetos/inputs";//.
+@import "objetos/flechas";//.
+@import "objetos/iconos";//.
+@import "objetos/imagenes";//.h
+@import "objetos/inputs";//.
 @import "objetos/links"; //.
-@import "objetos/logos"; //.
-//@import "objetos/overlays";//.overlay
+//@import "objetos/logos"; //.
+@import "objetos/overlays";//.overlay
 @import "objetos/parrafos"; //.
+@import "objetos/separadores"; //.
 @import "objetos/titulos"; //.
 @import 'objetos/_icono__css-menu';//.
 

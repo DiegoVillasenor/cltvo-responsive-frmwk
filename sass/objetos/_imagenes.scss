@@ -1,8 +1,29 @@
 .imagen
-{
+{	
+	display: block;
+
+	&__about {height: 390px;}
 	
-	&--fill-div
+	&__home 
 	{
-		width:100%;
+		@include bg-cover(center);
+		background-image: url("../images/imagen-home.png");
 	}
+	
+	&__galeria
+	{
+		@include aspect-ratio(3,2);
+		float:left;
+		width: 25%;
+	}
+
+	&__ficha-proyectos {height: 188px;}
+
+	&__prensa {height: 224px;}
+
+	
+	// &--fill-div
+	// {
+	// 	width:100%;
+	// }
 }

@@ -2,4 +2,75 @@
 .titulo
 {
 
+	@extend %boldfont;
+
+	&__footer 
+	{
+		font-size: 16px;
+		margin-bottom: 24px;
+		position:absolute;
+		top:46px;
+		
+		&--chico
+		{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+	
+	&__logo
+	{
+		font-size: 82px;
+		line-height: 1;
+		margin-bottom: -6px;
+		text-align: left;
+	}
+	
+	&__ficha
+	{
+		font-size: 16px;
+		line-height: 1.2;
+		
+		&--perfil
+		{
+			font-size: 20px;
+		}
+
+		&--prensa
+		{
+			font-family: Minion;
+			font-weight: normal;
+		}
+	}
+	
+	
+
+	&__single
+	{
+		font-size: 24px;
+		
+		&--subtitulo
+		{
+			font-size: 18px;
+			margin-bottom: 24px;
+		}
+
+	}
+
+	&__subtitulo, &__ver-desarrollo
+	{
+		font-size: 8px;
+		margin-bottom: 24px;
+	}
+
+	&__subtitulo {text-align: left;}
+
+	&__ver-desarrollo
+	{
+		
+		text-transform: uppercase;
+		margin-bottom: 6px;
+	}
+	
+
 }

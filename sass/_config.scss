@@ -12,7 +12,7 @@
 $border-debug: false;
 
 // Tamaños mínimos
-$row-max-width: 1280px;
+$row-max-width: 1068px;
 $min-device-width: 320px;
 
 // Tamaño base. Todos los tamaños se ajustan a esta unidad.
@@ -42,20 +42,27 @@ $break-medio: 768px;
 $break-grande: 1024px;
 
 // Colores
-$color-texto: #333333;//TEXTOS, FONDO VACANTE PAR
-$color-destacado: #FFF;//GRIS CLARO>> LOGO, FOOTER, CONTACTO, FONDO CLIENTES, //FONDO VACANTE NON
-							// COLOR VACANTE PAR
-$color-destacado2: #4d4d4d;//CASI NEGRO>> MENU PRINCIPAL, MENU TOP OSCURO
+$color-texto: #000;//
 $color-fondo: #FFF;
+$color-claro: $color-fondo ;//
+$color-oscuro: $color-texto;
+$color-destacado: $color-fondo;//		
+$color-destacado2: $color-texto;//
 $color-principal: $color-texto;
-$color-claro: #e4e4e4;//GRIS MENOS CLARO>> SECTION TITLE, LOGOS CLIENTES, SUBMIT
-$color-clarisimo: #C1C1C1;//PLACEHOLDERS
-$color-vacante-non: #1D1D1B;//.wulf-p
-$color-submenu-secciones: #808080;
+
 
 // Fuentes
-$fuente-sans: 'Neusa', 'Myriad', sans-serif;
-$fuente-titulo: 'Neusa', 'Myriad', sans-serif;
-$fuente-parrafo: 'Helve', 'Myriad', sans-serif;
-$fuente-serif: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-$fuente-cond: 'Myriad-Cond', sans-serif;
+$fuente-sans: Arial, 'Myriad', sans-serif;
+$fuente-serif: Minion, "Times New Roman", Times, Baskerville, Georgia, serif;
+$fuente-titulo: $fuente-sans;
+$fuente-parrafo: $fuente-serif;
+$fuente-cond: Minion, 'Myriad-Cond', sans-serif;
+
+//Heights
+$imagen_about_height:390px;
+$imagen_ficha-proyectos_height:188px;
+$imagen_prensa_height:224px;
+
+//Widths
+$imagen_ficha-width:376px;
+$imagen_prensa_width:348px;

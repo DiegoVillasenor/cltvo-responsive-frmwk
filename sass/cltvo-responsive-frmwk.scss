@@ -18,7 +18,7 @@
 @import "_mixins";
 @import "_funciones";
 @import "_base";
-@import "_reticulaNuova"; 
+@import "_reticula"; 
 @import "_objetos";
 
 /**
@@ -28,9 +28,11 @@
 
 // Declara tus fuentes usando el MIXIN
 
-@include declara-font-face(Neusa, '../fonts/bvaftfneusa-regular-webfont', normal);
-@include declara-font-face(Neusa, '../fonts/bvaftfneusa-demibold-webfont', bold);
-@include declara-font-face(Helve, '../fonts/HelveticaNeue-Light', 200);
+@include declara-font-face(Arial, '../fonts/Arial-BoldMT', bold);
+@include declara-font-face(Arial, '../fonts/ArialMT', normal);
+@include declara-font-face(Minion, '../fonts/MinionPro-Bold', bold);
+@include declara-font-face(Minion, '../fonts/MinionPro-Regular', normal);
+@include declara-font-face(Minion, '../fonts/MinionPro-It', normal, italic);
 
 /**
 * TIPOGRAFÍA

@@ -1,6 +1,37 @@
 //Estilo de párrafos
 .parrafo, .parrafo p//, p.parrafo, a.parrafo
 {
+	@extend %parrafont;
 
+	&__about
+	{
+		font-size: 18px;
+		margin-bottom: 22px;
+		&:last-child
+			{margin-bottom: 34px;}
+	}
+	
+	&--fecha 
+	{
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	&__ficha 
+	{
+		font-style: italic;
+		margin-bottom: 0;
+		
+		&--about 
+		{
+			font-size: 18px;
+			font-style: normal;
+		}
+
+		&__overlay {font-style: normal;}
+
+		&--aclarado  {color: lighten($color-texto, 20%)}
+	}
+
+	&__footer, &__contacto {@extend %footerfont;}
 }
 
