@@ -1,63 +1,7 @@
-.contenedor //Misceláneos
-{
-	&__contacto
-	{
-		padding-bottom: 96px;
-		padding-top: 46px;
-	}
-	
-	&__galeria-single
-	{
-		margin-bottom: 16px;
-		width: 100%;
-	}
+//_________________________ Contenedores _________________________ \\
 
-	&__general
-	{
-		padding-bottom: 136px;
-		padding-top: 56px;
-	}
-	&__icono--social
-		{
-			float: left;
-			margin-bottom: 6px;
-		}
-
-	&__img-bg
-	{
-		background-color: transparentize($color-oscuro, 0.5);
-		padding: 0 20px;
-		width: 100%;
-	}
-	
-	&__perfil 
-	{
-		margin-bottom: 14px; 
-		&:last-child {margin-bottom: 0px;}
-	}
-	
-	&__separador
-	{
-		position:relative;
-		padding: 0 12px;
-	}
-
-	&-texto__ficha
-	{
-		position:relative;
-
-		&--centrado-vertical//necesita ser contenido dentro de .contenedor-texto__ficha
-		{
-			position:absolute;
-			top:50%;
-    		transform: translateY(-50%);
-		}
-
-		&--about-height//Inline con .contenedor-texto__ficha
-		{
-			height: $imagen_about_height
-		}
-	}
-
-	&__texto__footer {width: 79%;}
-}
+@import "_footer";//
+@import "_menuTop";//
+@import "_menuSingle";//
+@import "_menuPrensa";//
+@import "_page";//
