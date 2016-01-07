@@ -8,31 +8,7 @@
 	//Paddings, Heights 
 				//	y Backgrounds propios de las mismas
 
-	//Home
-	@import "contenedores/menu-main"; //.m
-	@import "contenedores/menu-top";//.
-	//@import "contenedores/menu-mini";//.
 
-	@import "contenedores/contacto"; //#
-
-	//About #que-hacemos
-	@import 'contenedores/que-hacemos';//#
-
-	//Single .single	
-	@import "contenedores/single y page";//.single .page
-	@import "contenedores/single";
-	@import "contenedores/page";				
-
-
-	//MISC _overlay, __flecha, __checkboxes, __checkbox___contacto
-	@import "contenedores/contenedores";
-	@import "contenedores/main-body";
-	//@import "contenedores/header";//Header
-	@import "contenedores/footer";//Footer	
-
-
-
-//ESTILOS DE OBJETOS GENERALES
 @import "objetos/botones";//.
 //@import "objetos/checkboxes";//.
 @import "objetos/flechas";//.
